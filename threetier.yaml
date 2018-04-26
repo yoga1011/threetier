@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: "mohanraz81/synbackend2004"
+          image: "yoga1011/backtend"
           ports:
             - name: http
               containerPort: 80
@@ -76,7 +76,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: "mohanraz81/synfrontend2004"
+        image: "yoga1011/frontend"
         ports:
           - name: http
             containerPort: 80
